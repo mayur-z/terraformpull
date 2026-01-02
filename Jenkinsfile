@@ -15,7 +15,7 @@ pipeline {
                 sh "pwd"
                 sh 'git pull https://github.com/mayur-z/terraformpull.git' 
                 // Commands to build the software
-                sh 'cd /var/lib/jenkins/workspace/infra-tf-pip/terraformpull'
+              //  sh 'cd /var/lib/jenkins/workspace/infra-tf-pip/terraformpull'
                
             }
         }
