@@ -56,7 +56,7 @@ resource "aws_instance" "test-instance" {
   ami               = data.aws_ami.golden_image.id
   instance_type     = "t3.micro"
   tags = {
-    Name = "ok"
+    Name = "b19-b17-terraform-git"
      }
 }
 
@@ -69,5 +69,6 @@ az2-1
 az2-2
 az2-3
 */
+
 
 
