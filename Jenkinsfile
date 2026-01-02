@@ -1,7 +1,7 @@
 
 
 
-#/var/lib/jenkins/workspace/infra-tf-pip/terraformpull
+///var/lib/jenkins/workspace/infra-tf-pip/terraformpull
 
 
 
