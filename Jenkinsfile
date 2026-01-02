@@ -11,8 +11,10 @@ pipeline {
         stage('pull') {
             steps {
                 echo "11111"
+                sh "whoami"
+                sh "pwd"
                 // Commands to build the software
-              sh 'cd /var/lib/jenkins/workspace/infra-tf-pip/terraformpull'
+             // sh 'cd /var/lib/jenkins/workspace/infra-tf-pip/terraformpull'
               //  sh 'git pull https://github.com/mayur-z/terraformpull.git' 
             }
         }
