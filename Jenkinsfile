@@ -13,7 +13,7 @@ pipeline {
                 echo "11111"
                 sh "whoami"
                 sh "pwd"
-                sh 'git pull https://github.com/mayur-z/terraformpull.git' 
+              //  sh 'git pull https://github.com/mayur-z/terraformpull.git' 
                 // Commands to build the software
               //  sh 'cd /var/lib/jenkins/workspace/infra-tf-pip/terraformpull'
                
