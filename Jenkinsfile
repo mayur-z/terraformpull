@@ -33,7 +33,7 @@ pipeline {
             steps {
               echo "33333"
                 // Commands to deploy
-                sh 'terraform apply -auto-approve'
+              //  sh 'terraform apply -auto-approve'
             }
         }
         stage('destroy') {
